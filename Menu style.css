@@ -1,0 +1,140 @@
+
+
+     *{ 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+         }
+        
+
+
+         .main{ 
+    width: 1170px;
+    margin: 100px auto;
+     }
+
+     .section-title{ 
+    text-align: center;
+    margin-bottom: 80px;
+     }
+
+     .single-menu{ 
+      background-color: rgba(46, 23, 3, 0);
+    width: 300px;
+    border: 15px solid rgba(255, 255, 255, 0.126);
+    padding: 0px;
+    margin: 20px;
+    margin-bottom: 10px;
+    
+     }
+
+
+     .section-title h1{ 
+        text-transform: capitalize;
+        font-size: 30px;
+        padding: relative;
+        display: inline-block;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+         }
+
+     .section-title h1:before{ 
+        content: ' ';
+        position: absolute;
+        width: 73px;
+        height: 3px;
+        background-color: green;
+        bottom: 77%;
+        left: 47%;
+        transform: translateX(-50);
+        
+         }
+
+      .menus{ 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+
+         }
+
+         p.a {
+  font-style: normal;
+}
+
+  .menus-column h2{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20;
+    position: absolute;
+   }
+   .menus-column h2::before{
+   content: '';
+   position: absolute;
+   width: 76px;
+   height: 2px;
+   background-color: green;
+   bottom: 0;
+   padding-bottom: 1px;
+
+
+       }
+
+       .menus-column h3{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20;
+    position: absolute;
+   }
+
+   .menus-column h3::before{
+   content: '';
+   position: absolute;
+   width: 55px;
+   height: 2px;
+   background-color: green;
+   bottom: 0;
+   padding-bottom: 1px;
+    }
+
+     .grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  background-color: #4d4d4d00;
+  padding-left: 150px;
+}
+
+.single-menu{ 
+
+display: flex;
+align-content: center;
+margin-right: 20px;
+
+}
+
+.single-menu img{ 
+  border-radius: 50%;
+  max-width: 250px;
+  border: 1px dashed;
+  padding: 3px;
+  margin-right: 15px;
+   }
+
+   .single-menu .menu-content h4{
+
+    text-transform: capitalize;
+    font-size: 19px;
+    font-weight: 500;
+    border-bottom: 1px dashed #222;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+   }
+
+
+
+     
+   
+
+   
